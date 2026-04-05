@@ -2,7 +2,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
        local Window = MakeWindow({
          Hub = {
-         Title = "Nghĩa Roblox",
+         Title = "Gấu Tổng Hợp",
          Animation = "🔥Menu tổng hợp🔥"
          },
         Key = {
@@ -21,8 +21,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
   })
 
        MinimizeButton({
-       Image = "http://www.roblox.com/asset/?id=83190276951914",
-       Size = {60, 60},
+       Image = "http://www.roblox.com/asset/?id=132048412600170",
+       Size = {450, 350},
        Color = Color3.fromRGB(10, 10, 10),
        Corner = true,
        Stroke = false,
@@ -36,6 +36,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      local Tab4o = MakeTab({Name = "Script Auto Fruit"})
      local Tab5o = MakeTab({Name = "Script Bounty"})
      local Tab6o = MakeTab({Name = "Script Hop Sever"})
+     local Tab7o = MakeTab({Name = "Misc"})
 ------- BUTTON
     
     AddButton(Tab1o, {
@@ -357,11 +358,42 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/trongdeptraihucscript
   end
   })
   
-  AddButton(Tab3o, {
-     Name = "NejI hub (no key)",
+  AddButton(Tab5o, {
+     Name = "Vxeze M1 (no key)",
     Callback = function()
-	  repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-NejiDepzai/Bloxfruits/refs/heads/main/Main.lua"))()
+	  repeat wait() until game:IsLoaded()
+getgenv().LoadUi = true
+getgenv().LowGpu = false -- Fps Boost
+getgenv().Premium = false -- if false for free but true for premium and need key
+getgenv().Key = "" -- Your Key
+getgenv().Team = "Pirates" -- Marines
+getgenv().Mode = "M1 Fruit" -- Normal But Config In Discord ( discord.gg/vxezehub )
+getgenv().Studio = {
+ ["Player Setting"] = {
+ ["Camera Lock"] = false,
+ ["Custom Pos Y"] = {["Enabled"] = true, ["Pos Y"] = 5000},
+ ["Health Setting"] = {40, 50}, -- 40-50% Heath (100% Max Health)
+ ["Set Bounty"] = {["Min"] = 0, ["Max"] = 30000000},
+ ["Spam Dash"] = true,
+ ["Your Fruit"] = "" -- Your Fruit Have M1 or Auto Check
+ },
+ ["Target Setting"] = {
+ ["Destroy Ken Target"] = false, -- if target max ken with Destroy
+ ["Hunter Method"] = {
+ ["Dogde Skill Target"] = true, -- 50% Dodge
+ ["Use Move Predict"] = true
+ }
+ }
+}
+getgenv().Webhook = {
+ ["Enable"] = false, -- true if u want used webhook discord
+ ["Url"] = "" -- Url
+}
+getgenv().HunterGui = {
+ ["Hide_Gui"] = false, -- Hide_Gui
+ ["Setting"] = {["Gui"] = {}} -- Setting Gui in Discord ( discord.gg/vxezehub )
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Dex-Bear/VxezeHubLoader/refs/heads/main/BF-HunterBounty.lua"))()
   end
   })
   
@@ -373,7 +405,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-NejiDepzai/Bloxfr
   end
   })
   
-  AddButton(Tab1o, {
+  AddButton(Tab4o, {
      Name = "NejI hub (no key)",
     Callback = function()
 	  repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
@@ -381,27 +413,153 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-NejiDepzai/Bloxfr
   end
   })
   
-  AddButton(Tab1o, {
-     Name = "NejI hub (no key)",
+  AddButton(Tab5o, {
+     Name = "Night hub M1 (no key)",
     Callback = function()
-	  repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-NejiDepzai/Bloxfruits/refs/heads/main/Main.lua"))()
+	  getgenv().Config = {
+    Team = "Pirates",
+    HuntConfig = {
+        ["Earned Notification Enabled"] = true,
+        ["Farm Delay"] = 0.22, -- 0.15 - Super Fast(Risk - Kick) | 0.22 Fast | 0.35 Medium | Max 0.5
+        ["Webhook"] = {
+            Enabled = false,
+            Url = ""
+        }
+    }
+}
+loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/2ffcdb62773f587bfb9eb0d52bb35b0c.lua"))()
   end
   })
   
-  AddButton(Tab1o, {
-     Name = "NejI hub (no key)",
+  AddButton(Tab5o, {
+     Name = "Vxeze M1 (no key)",
     Callback = function()
-	  repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-NejiDepzai/Bloxfruits/refs/heads/main/Main.lua"))()
+	  repeat wait() until game:IsLoaded()
+getgenv().LoadUi = true
+getgenv().LowGpu = false -- Fps Boost
+getgenv().Premium = false -- if false for free but true for premium and need key
+getgenv().Key = "" -- Your Key
+getgenv().Team = "Pirates" -- Marines
+getgenv().Mode = "M1 Fruit" -- Normal But Config In Discord ( discord.gg/vxezehub )
+getgenv().Studio = {
+ ["Player Setting"] = {
+ ["Camera Lock"] = false,
+ ["Custom Pos Y"] = {["Enabled"] = true, ["Pos Y"] = 5000},
+ ["Health Setting"] = {40, 50}, -- 40-50% Heath (100% Max Health)
+ ["Set Bounty"] = {["Min"] = 0, ["Max"] = 30000000},
+ ["Spam Dash"] = true,
+ ["Your Fruit"] = "" -- Your Fruit Have M1 or Auto Check
+ },
+ ["Target Setting"] = {
+ ["Destroy Ken Target"] = false, -- if target max ken with Destroy
+ ["Hunter Method"] = {
+ ["Dogde Skill Target"] = true, -- 50% Dodge
+ ["Use Move Predict"] = true
+ }
+ }
+}
+getgenv().Webhook = {
+ ["Enable"] = false, -- true if u want used webhook discord
+ ["Url"] = "" -- Url
+}
+getgenv().HunterGui = {
+ ["Hide_Gui"] = false, -- Hide_Gui
+ ["Setting"] = {["Gui"] = {}} -- Setting Gui in Discord ( discord.gg/vxezehub )
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Dex-Bear/VxezeHubLoader/refs/heads/main/BF-HunterBounty.lua"))()
   end
   })
   
-  AddButton(Tab1o, {
-     Name = "NejI hub (no key)",
+  AddButton(Tab5o, {
+     Name = "Dragon M1 (no key)",
     Callback = function()
-	  repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-NejiDepzai/Bloxfruits/refs/heads/main/Main.lua"))()
+	  repeat task.wait() until game:IsLoaded() and game.Players.LocalPlayer
+getgenv().Setting = {
+    ["Team"] = "Pirates",
+    ["Auto Click"] = true,
+    ["Delay Click"] = 0.3,
+    ["EnableWeapon"] = {
+        ["Fruit"] = false,
+        ["Melee"] = true,
+        ["Sword"] = true,
+        ["Gun"] = false
+    },
+    ["Melee"] = {
+        ["Z"] = {["Enable"] = true, ["HoldTime"] = 0.5},
+        ["X"] = {["Enable"] = true, ["HoldTime"] = 0.6},
+        ["C"] = {["Enable"] = true, ["HoldTime"] = 0.5},
+        ["ChangeDelay"] = 3
+    },
+    ["Sword"] = {
+        ["Z"] = {["Enable"] = true, ["HoldTime"] = 1.5},
+        ["X"] = {["Enable"] = true, ["HoldTime"] = 0.6},
+        ["ChangeDelay"] = 2
+    },
+    ["Gun"] = {
+        ["Z"] = {["Enable"] = true, ["HoldTime"] = 0.1},
+        ["X"] = {["Enable"] = true, ["HoldTime"] = 0.1},
+        ["ChangeDelay"] = 1,
+        ["GunMode"] = false
+    },
+    ["Fruit"] = {
+        ["Z"] = {["Enable"] = true, ["HoldTime"] = 0.1},
+        ["X"] = {["Enable"] = true, ["HoldTime"] = 0.1},
+        ["C"] = {["Enable"] = true, ["HoldTime"] = 0.1},
+        ["V"] = {["Enable"] = false, ["HoldTime"] = 0.1},
+        ["F"] = {["Enable"] = true, ["HoldTime"] = 0.1},
+        ["ChangeDelay"] = 1
+    },
+    ["LockBounty"] = {
+        ["Enable"] = false,
+        ["Min"] = 0,
+        ["Max"] = 30000000
+    },
+    ["Skip"] = {
+        ["Fruit"] = true,
+        ["FruitSkip"] = {"Buddha","Tiger","T-Rex"},
+        ["SafeZone"] = true,
+        ["NoHaki"] = true,
+        ["NoPvP"] = true
+    },
+    ["SafeHealth"] = {
+        ["Health"] = 4700,
+        ["Mask"] = false,
+        ["MaskType"] = "Mask",
+        ["RaceV4"] = false
+    },
+    ["Setting"] = {
+        ["UseRaceV3"] = true,
+        ["UseRaceV4"] = true,
+        ["SafeHealth"] = true,
+        ["Skip V4 Race"] = true,
+        ["Health"] = 4700,
+        ["FPSBoots"] = true,
+        ["AutoServerHop"] = true,
+        ["CheckCombatBeforeHop"] = true,
+        ["Fast Attack"] = true
+    },
+    ["Select Region"] = {
+        ["Enabled"] = true,
+        ["Region"] = {
+            ["Singapore"] = true,
+            ["United States"] = false,
+            ["Netherlands"] = false,
+            ["Germany"] = false,
+            ["India"] = false,
+            ["Australia"] = false
+        }
+    },
+    ["Webhook"] = {
+        ["Enabled"] = true,
+        ["Url"] = "your Url webhook"
+    },
+    ["AimBot"] = {
+        ["Enable"] = true,
+        ["AimCamera"] = {["Enable"] = true, ["MaxDistance"] = 300},
+        ["LockAim"] = {["Enable"] = true}
+    }
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/dragonhubdev/dragonwitheveryone/refs/heads/main/AutoBounty.lua"))()
   end
   })
   
